@@ -30,7 +30,7 @@ body {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Redueix aquest número */
   gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
@@ -63,7 +63,8 @@ body {
 
 .card-image {
   display: block;
-  width: 100%;
+  width: 75%; /* Abans estava al 100%. Pots canviar-ho a 60% o 80% segons t'agradi */
+  margin: 0 auto; /* Aquesta línia nova centra la imatge dins la fitxa */
   aspect-ratio: 3 / 2;
   object-fit: cover;
   border-radius: 10px;
