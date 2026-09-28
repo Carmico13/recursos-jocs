@@ -56,23 +56,23 @@ body {
 
 .card-title {
   margin: 0;
-  font-size: 1.3rem;
+  font-size: 30px;
   font-weight: 700;
   color: var(--title-color);
 }
 
 .card-image {
   display: block;
-  width: 75%; /* Abans estava al 100%. Pots canviar-ho a 60% o 80% segons t'agradi */
+  width: 100%; /* Abans estava al 100%. Pots canviar-ho a 60% o 80% segons t'agradi */
   margin: 0 auto; /* Aquesta línia nova centra la imatge dins la fitxa */
   aspect-ratio: 3 / 2;
-  object-fit: cover;
-  border-radius: 10px;
+  object-fit: contain;
+  border-radius: 1px;
 }
 
 .card-description {
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 18px;
   line-height: 1.5;
   color: var(--text-color);
 }
